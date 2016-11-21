@@ -4,7 +4,7 @@
 
 	/*
 	 * Classe responsável por fazer a comunicação do  com as 
-	 * classes existentes na extrutura do projeto
+	 * classes existentes na estrutura do projeto
 	 */
 
 	class UsuarioController{
