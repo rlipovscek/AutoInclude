@@ -1,4 +1,16 @@
-<?php require_once("start.php");
+<?php 
+	
+/*
+	 * Sistema simples para testar a função de auto include das classes
+	 * neste exemplo o arquivo inclusaoAutomatica é responsável por localizar a classe
+	 * com base em seu nome, sendo que o arquivo pode estar contido dentro de
+	 * uma pasta e deve possuir o mesmo nome que a classe.
+	 * caso deseje procurar um arquivo php que não seja uma classe basta chamar a funação
+	 * carregaArquivo($nomeDoArquivo) e informar o nome do arquivo a ser procurado.
+	 */
+
+//inclui as bibliotecas comuns a todas as classes
+require_once("start.php");
 
 
 echo "conteúdo da index <br>";
