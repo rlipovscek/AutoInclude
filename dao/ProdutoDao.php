@@ -1,6 +1,6 @@
 <?php
 	//inclui as bibliotecas comuns a todas as classes
-	require_once("start.php");
+	require_once("../start.php");
 
 
 	/*
