@@ -1,6 +1,7 @@
 <?php
-	//inclui as bibliotecas comuns a todas as classes
-	require_once("../start.php");
+	if(!isset($diretorio)){
+		require_once("../inclusaoAutomatica.php");
+	}
 
 
 	/*
